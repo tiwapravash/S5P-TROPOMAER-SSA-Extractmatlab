@@ -11,8 +11,8 @@ urls = textscan(fileID, '%s', 'Delimiter', '\n');
 fclose(fileID);
 
 % Set your EarthData username and password
-username = 'pt_4630';
-password = '9841343095@Daddy';
+username = 'youruser';
+password = 'yourpassword';
 % Set the options for the web request
 options = weboptions('Username', username, 'Password', password);
 
